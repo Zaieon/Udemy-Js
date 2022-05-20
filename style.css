@@ -1,0 +1,8 @@
+.second:hover {
+    color: blueviolet;
+    border: 5px dotted black;
+}
+#last:hover {
+    color: violet ;
+    border: 5px dotted black;
+}

@@ -331,21 +331,29 @@
 // })
 
 
-let body = document.querySelector('body')
-let h1 = document.querySelector('h1')
+// JavaScript DOM
 
-let isRed = false
-setInterval(function () { 
-    if (isRed) {
-        body.style.backgroundColor = 'white'
-        h1.style.color = 'red'
-    }
-    else {
-        body.style.backgroundColor = 'red'
-        h1.style.color = 'white' 
-    }
-        isRed = !isRed
-},1000)
+
+// let body = document.querySelector('body')
+// let h1 = document.querySelector('h1')
+
+// let isRed = false
+// setInterval(function () {
+//     if (isRed) {
+//         body.style.backgroundColor = 'white'
+//         h1.style.color = 'red'
+//     }
+//     else {
+//         body.style.backgroundColor = 'red'
+//         h1.style.color = 'white'
+//     }
+//         isRed = !isRed
+// },1000)
+
+
+let ff = document.querySelector('p')
+ff.classList.add('second')
+
 
 
 
